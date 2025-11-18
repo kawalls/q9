@@ -22,7 +22,7 @@ jobs:
   test-in-container:
     runs-on: ubuntu-latest
     container:
-      image: wallsk/unit_test
+      image: wallsk/unit_test:latest
       # all dependencies (pytest) are already in this docker image hosted as public image in YOUR Docker Hub account
 
     steps:
