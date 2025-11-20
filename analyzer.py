@@ -8,6 +8,6 @@ def count_words(text):
         return count
     
     for x in range (len(text)):
-        if x == ' ':
+        if text[x] == ' ':
             count += 1
     return count + 1
